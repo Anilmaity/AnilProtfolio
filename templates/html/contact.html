@@ -1,4 +1,6 @@
 <!doctype html>
+{% load static %}
+
 <html class="no-js" lang="zxx">
 
 <head>
@@ -12,19 +14,19 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="../../Projects/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Projects/static/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../Projects/static/css/magnific-popup.css">
-    <link rel="stylesheet" href="../../Projects/static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../Projects/static/css/themify-icons.css">
-    <link rel="stylesheet" href="../../Projects/static/css/nice-select.css">
-    <link rel="stylesheet" href="../../Projects/static/css/flaticon.css">
-    <link rel="stylesheet" href="../../Projects/static/css/gijgo.css">
-    <link rel="stylesheet" href="../../Projects/static/css/animate.min.css">
-    <link rel="stylesheet" href="../../Projects/static/css/slick.css">
-    <link rel="stylesheet" href="../../Projects/static/css/slicknav.css">
-    <link rel="stylesheet" href="../../Projects/static/css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css'%}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css'%}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css'%}">
+    <link rel="stylesheet" href="{% static 'css/gijgo.css'%}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/slick.css'%}">
+    <link rel="stylesheet" href="{% static 'css/slicknav.css'%}">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <!-- <link rel="stylesheet" href="{% static 'css/responsive.css' %}" -->
 </head>
 
 <body>
@@ -51,18 +53,18 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="index.html">home</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                 <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
+{#                                        <li><a href="services.html">Services</a></li>#}
+{#                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>#}
+{#                                            <ul class="submenu">#}
+{#                                                <li><a href="blog.html">blog</a></li>#}
+{#                                                <li><a href="single-blog.html">single-blog</a></li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
+{#                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>#}
+{#                                            <ul class="submenu">#}
+{#                                                 <li><a href="elements.html">elements</a></li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -239,33 +241,33 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <!--/ footer end  -->
 
   <!-- JS here -->
-  <script src="../../Projects/static/js/vendor/modernizr-3.5.0.min.js"></script>
-  <script src="../../Projects/static/js/vendor/jquery-1.12.4.min.js"></script>
-  <script src="../../Projects/static/js/popper.min.js"></script>
-  <script src="../../Projects/static/js/bootstrap.min.js"></script>
-  <script src="../../Projects/static/js/owl.carousel.min.js"></script>
-  <script src="../../Projects/static/js/isotope.pkgd.min.js"></script>
-  <script src="../../Projects/static/js/ajax-form.js"></script>
-  <script src="../../Projects/static/js/waypoints.min.js"></script>
-  <script src="../../Projects/static/js/jquery.counterup.min.js"></script>
-  <script src="../../Projects/static/js/imagesloaded.pkgd.min.js"></script>
-  <script src="../../Projects/static/js/scrollIt.js"></script>
-  <script src="../../Projects/static/js/jquery.scrollUp.min.js"></script>
-  <script src="../../Projects/static/js/wow.min.js"></script>
-  <script src="../../Projects/static/js/nice-select.min.js"></script>
-  <script src="../../Projects/static/js/jquery.slicknav.min.js"></script>
-  <script src="../../Projects/static/js/jquery.magnific-popup.min.js"></script>
-  <script src="../../Projects/static/js/plugins.js"></script>
-  <script src="../../Projects/static/js/gijgo.min.js"></script>
+    <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
+    <script src=".{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'fjs/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/ajax-form.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/scrollIt.js' %}"></script>
+    <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/gijgo.min.js' %}"></script>
 
   <!--contact js-->
-  <script src="../../Projects/static/js/contact.js"></script>
-  <script src="../../Projects/static/js/jquery.ajaxchimp.min.js"></script>
-  <script src="../../Projects/static/js/jquery.form.js"></script>
-  <script src="../../Projects/static/js/jquery.validate.min.js"></script>
-  <script src="../../Projects/static/js/mail-script.js"></script>
+    <script src="{% static 'js/contact.js' %}"></script>
+    <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js/jquery.form.js' %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/mail-script.js' %}"></script>
 
-  <script src="../../Projects/static/js/main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 </body>
 
 </html>

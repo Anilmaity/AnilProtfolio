@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="{% static 'css/slick.css' %}">
     <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- <link rel="stylesheet" href="{% static 'css/responsive.css' %}"> -->
 </head>
 
 <body>
@@ -52,18 +52,18 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="index.html">home</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                 <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
+{#                                        <li><a href="services.html">Services</a></li>#}
+{#                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>#}
+{#                                            <ul class="submenu">#}
+{#                                                <li><a href="blog.html">blog</a></li>#}
+{#                                                <li><a href="single-blog.html">single-blog</a></li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
+{#                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>#}
+{#                                            <ul class="submenu">#}
+{#                                                 <li><a href="elements.html">elements</a></li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -134,7 +134,9 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="about_e_details">
                         <h3>About me</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.</p>
+                        <p>Hello , I am a devloper also find myself doing different projects in free time.
+                            Mostly robotics project.
+                        I like listening music and playing games and watching anime for fun.</p>
                         <div class="download_cv">
                             <a class="boxed-btn3" href="#">Download CV</a>
                         </div>
@@ -161,7 +163,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_counter text-center">
                         <h3>
-                            <span class="counter" >520 </span><span>+</span>
+                            <span class="counter" >10 </span><span>+</span>
                         </h3>
                         <p>Total Projects</p>
                     </div>
@@ -169,7 +171,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_counter text-center">
                         <h3>
-                            <span class="counter">244 </span>
+                            <span class="counter">5 </span>
                         </h3>
                         <p>On Going Projects</p>
                     </div>
@@ -225,24 +227,25 @@
                                             </div>
                                         </div>
                             </div>
-                            <div class="single_carousel">
-                                    <div class="single_testmonial text-center">
-                                            <div class="quote">
-                                                <img src="{% static 'img/testmonial/quote.svg' %}" alt="">
-                                            </div>
-                                            <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                    sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                    Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                            <div class="testmonial_author">
-                                                <div class="thumb">
-                                                        <img src="{% static 'img/testmonial/thumb.png' %}" alt="">
-                                                </div>
-                                                <h3>Robert Thomson</h3>
-                                                <span>Business Owner</span>
-                                            </div>
-                                        </div>
-                            </div>
+{#                            <div class="single_carousel">#}
+{#                                    <div class="single_testmonial text-center">#}
+{#                                            <div class="quote">#}
+{#                                                <img src="{% static 'img/testmonial/quote.svg' %}" alt="">#}
+{#                                            </div>#}
+{#                                            <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>#}
+{#                                                    sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>#}
+{#                                                    Fusce ac mattis nulla. Morbi eget ornare dui. </p>#}
+{#                                            <div class="testmonial_author">#}
+{#                                                <div class="thumb">#}
+{#                                                        <img src="{% static 'img/testmonial/thumb.png' %}" alt="">#}
+{#                                                </div>#}
+{#                                                <h3>Robert Thomson</h3>#}
+{#                                                <span>Business Owner</span>#}
+{#                                            </div>#}
+{#                                        </div>#}
+{#                            </div>#}
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-python manage.py collectstatic --noinput
+python manage.py collectstatic
 web: gunicorn AnilProtfolio.wsgi --log-file -
 manage.py migrate
 
